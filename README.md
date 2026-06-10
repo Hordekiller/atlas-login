@@ -8,97 +8,101 @@
 <br>
 
 <div align="center">
-  <h1>🔐 اتلس لاگین | Atlas Login</h1>
-  <p>یک صفحه لاگین مدرن، شیک و ریسپانسیو ساخته شده با React + Tailwind CSS</p>
-  <p><strong>ساخته شده توسط <a href="https://github.com/Hordekiller">Hordekiller</a></strong></p>
+  <h1>🔐 Atlas Login | اتلس لاگین</h1>
+  <p>A modern, stylish, and responsive login page built with React + Tailwind CSS</p>
+  <p><strong>Built by <a href="https://github.com/Hordekiller">Hordekiller</a></strong></p>
 </div>
 
 <br>
 
 ---
 
-## ✨ ویژگی‌ها
+## ✨ Features | ویژگی‌ها
 
-- **طراحی مدرن** با افکت شیشه‌ای (Glassmorphism)
-- **گرادینت زیبا** بنفش-صورتی
-- **ریسپانسیو** و سازگار با موبایل
-- **RTL کامل** (راست‌چین) برای زبان فارسی
-- **نمایش/مخفی کردن رمز عبور**
-- **دکمه‌های ورود با شبکه‌های اجتماعی** (Google, GitHub, Facebook)
-- **انیمیشن‌های نرم** و hover effects
-- **سبک** (با Tailwind CSS)
+- **Modern design** with Glassmorphism effect — **طراحی مدرن** با افکت شیشه‌ای
+- **Beautiful purple-pink gradient** — **گرادینت زیبا** بنفش-صورتی
+- **Fully responsive** & mobile-friendly — **ریسپانسیو** و سازگار با موبایل
+- **Full RTL** (right-to-left) support for Persian — **RTL کامل** (راست‌چین) برای زبان فارسی
+- **Show/Hide password** toggle — **نمایش/مخفی کردن رمز عبور**
+- **Social login buttons** (Google, GitHub, Facebook) — **دکمه‌های ورود با شبکه‌های اجتماعی**
+- **Smooth animations** & hover effects — **انیمیشن‌های نرم** و hover effects
+- **Lightweight** (Tailwind CSS) — **سبک** (با Tailwind CSS)
 
-## 🚀 دموی زنده
+## 🚀 Live Demo | دموی زنده
 
-مشاهده آنلاین در GitHub Pages:
+View online on GitHub Pages:
 <br>
-👉 **[اتلس لاگین - دموی زنده](https://hordekiller.github.io/atlas-login/)**
+👉 **[Atlas Login - Live Demo](https://hordekiller.github.io/atlas-login/)**
 
-## 📸 پیش‌نمایش
+## 📸 Preview | پیش‌نمایش
 
 ![Atlas Login Preview](https://via.placeholder.com/800x500/1e1b4b/ffffff?text=Atlas+Login+Preview)
 
-## 🛠 تکنولوژی‌ها
+## 🛠 Tech Stack | تکنولوژی‌ها
 
-| تکنولوژی | توضیحات |
-|----------|---------|
-| [React 19](https://react.dev/) | کتابخانه فرانت‌اند |
-| [Tailwind CSS 4](https://tailwindcss.com/) | فریمورک CSS کاربردی |
-| [Vite 8](https://vite.dev/) | بیلدر سریع |
+| Technology | توضیحات |
+|------------|---------|
+| [React 19](https://react.dev/) | Frontend library — کتابخانه فرانت‌اند |
+| [Tailwind CSS 4](https://tailwindcss.com/) | Utility-first CSS framework — فریمورک CSS کاربردی |
+| [Vite 8](https://vite.dev/) | Fast build tool — بیلدر سریع |
 
-## 📂 ساختار پروژه
+## 📂 Project Structure | ساختار پروژه
 
 ```
 atlas-login/
-├── index.html          # فایل HTML مستقل (قابل مشاهده مستقیم)
-├── dist/               # خروجی بیلد شده
+├── index.html          # Standalone HTML (可直接查看) / فایل HTML مستقل
+├── dist/               # Build output / خروجی بیلد شده
 ├── src/
-│   ├── App.jsx         # کامپوننت اصلی صفحه لاگین
-│   ├── main.jsx        # نقطه ورود React
-│   ├── index.css       # استایل‌های Tailwind
-│   └── assets/         # فایل‌های استاتیک
-├── public/             # فایل‌های عمومی
+│   ├── App.jsx         # Main login component / کامپوننت اصلی صفحه لاگین
+│   ├── main.jsx        # React entry point / نقطه ورود React
+│   ├── index.css       # Tailwind styles / استایل‌های Tailwind
+│   └── assets/         # Static files / فایل‌های استاتیک
+├── public/             # Public files / فایل‌های عمومی
 ├── package.json
 ├── vite.config.js
 ├── LICENSE
 └── README.md
 ```
 
-## ⚡ شروع سریع
+## ⚡ Quick Start | شروع سریع
 
 ```bash
-# کلون کردن پروژه
+# Clone the repo / کلون کردن پروژه
 git clone https://github.com/Hordekiller/atlas-login.git
 cd atlas-login
 
-# نصب وابستگی‌ها
+# Install dependencies / نصب وابستگی‌ها
 npm install
 
-# اجرای سرور توسعه
+# Start dev server / اجرای سرور توسعه
 npm run dev
 
-# ساخت نسخه نهایی
+# Build for production / ساخت نسخه نهایی
 npm run build
 
-# پیش‌نمایش نسخه ساخته شده
+# Preview the build / پیش‌نمایش نسخه ساخته شده
 npm run preview
 ```
 
-## ☁️ استقرار در GitHub Pages
+## ☁️ Deploy to GitHub Pages | استقرار در GitHub Pages
+
+The standalone `index.html` is located in the project root and can be easily deployed on GitHub Pages:
 
 نسخه HTML مستقل (`index.html`) در روت پروژه قرار دارد و می‌توانید آن را به راحتی روی GitHub Pages مستقر کنید:
 
-1. به **Settings > Pages** ریپازیتوری بروید
-2. در بخش **Source** گزینه `Deploy from a branch` را انتخاب کنید
-3. برنچ `main` و مسیر `/ (root)` را انتخاب کنید
-4. روی **Save** کلیک کنید
+1. Go to **Settings > Pages** of your repo — به **Settings > Pages** ریپازیتوری بروید
+2. Under **Source**, select `Deploy from a branch` — در بخش **Source** گزینه `Deploy from a branch` را انتخاب کنید
+3. Choose branch `main` and folder `/ (root)` — برنچ `main` و مسیر `/ (root)` را انتخاب کنید
+4. Click **Save** — روی **Save** کلیک کنید
 
-## 📜 لایسنس
+## 📜 License | لایسنس
+
+This project is released under the **MIT License**. You are free to use it, but please give credit to [Hordekiller](https://github.com/Hordekiller).
 
 این پروژه تحت لایسنس **MIT** منتشر شده است. می‌توانید آزادانه از آن استفاده کنید، اما لطفاً اعتبار را به [Hordekiller](https://github.com/Hordekiller) بدهید.
 
 ---
 
 <div align="center">
-  ساخته شده با ❤️ توسط <a href="https://github.com/Hordekiller">Hordekiller</a>
+  Made with ❤️ by <a href="https://github.com/Hordekiller">Hordekiller</a>
 </div>
