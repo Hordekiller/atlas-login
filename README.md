@@ -28,15 +28,7 @@
 - **Smooth animations** & hover effects — **انیمیشن‌های نرم** و hover effects
 - **Lightweight** (Tailwind CSS) — **سبک** (با Tailwind CSS)
 
-## 🚀 Live Demo | دموی زنده
 
-View online on GitHub Pages:
-<br>
-👉 **[Atlas Login - Live Demo](https://hordekiller.github.io/atlas-login/)**
-
-## 📸 Preview | پیش‌نمایش
-
-![Atlas Login Preview](https://via.placeholder.com/800x500/1e1b4b/ffffff?text=Atlas+Login+Preview)
 
 ## 🛠 Tech Stack | تکنولوژی‌ها
 
@@ -50,7 +42,7 @@ View online on GitHub Pages:
 
 ```
 atlas-login/
-├── index.html          # Standalone HTML (可直接查看) / فایل HTML مستقل
+├── index.html          # Standalone HTML  / فایل HTML مستقل
 ├── dist/               # Build output / خروجی بیلد شده
 ├── src/
 │   ├── App.jsx         # Main login component / کامپوننت اصلی صفحه لاگین
